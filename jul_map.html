@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Add Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <input type = "text" id="input1" maxlenth="10" name="textbox1" placeholder = "Enter the postal code" />
+    <input type = "button" id="btn1" value = "Display" />
+    <br> <br>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?v=beta&key=AIzaSyCQL6SU5d-0W28xky4YHqzuPoPsDkyMjZM&callback=initMap"
+      defer
+    ></script>
+  </body>
+</html>
