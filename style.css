@@ -1,0 +1,8 @@
+/* Set the size of the div element that contains the map */
+#map {
+  height: 50%;
+  /* The height is 70% of the height of the webpage */
+  width: 50%;
+  /* The width is the width of the web page */
+};
+
